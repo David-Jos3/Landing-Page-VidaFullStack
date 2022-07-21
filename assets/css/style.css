@@ -4,29 +4,8 @@
 @import "header.css";
 @import "buttons.css";
 @import "main.css";
+@import "footer.css";
+@import "responsive-background.css";
+@import "bootstrap.css";
+@import "responsive-elements.css";
 
-/* Reset Css */
-*{
-    padding: 0;
-    margin: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-    box-sizing: border-box;
-    text-decoration: none ;
-    font-weight: 300;
-    font-family: 'Source Sans Pro',sans-serif ;
-}
-
-.container{
-    width: 1024px;
-    margin: 30px auto;
-    display: flex;
-    flex-direction: column;
-}
-
-.row{
-    display: flex;
-    flex-direction: row;
-}
